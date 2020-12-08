@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------
+   Соглашения по стилю написания кода принятые для сайта конференций.
+   См. стандарт написания кода на PHP:
+   http://git.php.net/?p=php-src.git;a=blob_plain;f=CODING_STANDARDS;hb=HEAD
+
+   Agreements on code style.
+   See php coding standard here:
+   http://git.php.net/?p=php-src.git;a=blob_plain;f=CODING_STANDARDS;hb=HEAD
+--------------------------------------------------------------------------------
+1) Константы пищутся прописными буквами: TRUE, FALSE, NULL, NaN, MY_CONSTANT.
+   Constants are written in capital letters: TRUE, FALSE, NULL, NaN, MY_CONSTANT.
+
+2) Имена переменных в camelCase или нижнем регистре с символами 
+   подчеркивания между словами.
+   Variables are written in camelCase or in lower case with underscores
+   between words. 
+
+3) Имена функций используют подчеркивания между словами в нижнем регистре.
+   Names if functions use underscores betweeb words written in lower case.
+
+4) Имена классов используют PascalCase, а названия методов используют camelCase.
+   Names of classes use PascalCase, methods use camelCase.
+
+5) Используйте стиль отступов в 1 таб (4 пробела):
+   Use indentation style in one tab (4 spaces):
+   if (<cond>) {
+   ····<body> 
+   }
+
+6) Между операторами и др. знаками ставятся пробелы, как в предыдущем примере.
+   Put spaces between operators and other symbols as in previous example.
+ 
+7)*Будем ждать, когда в PHP появится встроенная в язык возможность передавать
+   параметры при вызове в виде пары 'название => значение', было бы удобно.
+   We will wait, when the PHP language will be built in the ability to transmit
+   parameters as a pair of 'name => value' when calling a method, 
+   it would be convenient.
+   

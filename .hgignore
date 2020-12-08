@@ -1,0 +1,10 @@
+^nbproject/
+^assets/(?!\.hgempty).+$
+^protected/runtime/(?!\.hgempty).+$
+^protected/config/config.php
+^protected/config/dev.php
+^uploads/(?!\.htaccess).+$
+^temp/(?!\.htaccess).+$
+^themes/sfu2016/
+^themes/sfu/
+^protected/data/conf.sql

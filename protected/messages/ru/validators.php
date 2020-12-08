@@ -1,0 +1,38 @@
+<?php
+
+return array(
+    'At least one field in field group {label} is required.' => 'Необходимо заполнить поле {label} хотя бы на одном языке.',
+    '{label} field must contain at least {min} characters.' => 'Поле {label} должно содержать не менее {min} символов.',
+    '{label} field should contain no more than {max} symbols.' => 'Поле {label} должно содержать не более {max} символов.',
+    'Fields with an asterisk {asterisk} are required.' => 'Поля со звездочкой {asterisk} обязательны для заполнения.',
+    'At least one field in a field group with an asterisk {asterisk} is required.' => 'В группе полей со звездочкой {asterisk} обязательно для заполнения хотя бы одно поле.',
+    'Field {label} must contain letters, digits, `-` and `_` characters.' => 'Поле {label} должно содержать цифры, буквы и символы `-` и `_`.',
+    'File formats allowed to upload' => 'Форматы файлов, разрешенные для загрузки',
+    'Max file size allowed to upload' => 'Максимальный размер файла, разрешенный для загрузки',
+    '{label} must not exceed size of {size}.' => 'Размер {label} не должен превышать {size}.',
+    'Files must not exceed size of {size}.' => 'Размер файлов не должен превышать {size}.',
+    'Unsupported format for {label}.' => '{label} имеет неподдерживаемый формат.',
+    'Unsupported format for files.' => 'Файлы имеют неподдерживаемый формат.',
+    'At least one {label} must be selected.' => 'Требуется назначить хотя бы один {label}.',
+    'Unsupported file extension {ext} in {label} specified.' => 'В поле {label} указано неподдерживаемое расширение файлов {ext}.',
+    'Each field in field group {label} is required.' => 'В группе полей {label} необходимо заполнить все поля.',
+    'At least one author is required.' => 'Требуется указать хотя бы одного автора.',
+    'Please, re upload Report File.' => 'Пожалуйста, перезагрузите Файл доклада.',
+    'Report File is required.' => 'Нужно загрузить Файл доклада.',
+    'Video File is required.' => 'Нужно загрузить Видео доклада.',
+    'Please, re upload Report Video.' => 'Пожалуйста, перезагрузите Видео доклада.',
+    'This website address is already being used. Please choose another one.' => 'Этот адрес уже используется. Пожалуйста, выберите другой.',
+    'Please, re upload Image.' => 'Пожалуйста, перезагрузите Изображение.',
+    'Please, re upload Images.' => 'Пожалуйста, перезагрузите фото авторов.',
+    'Password is invalid.' => 'Неверный пароль.',
+    'It is required to upload {label}.' => 'Нужно загрузить {label}.',
+    'It is required to upload the files in the {label} in all languages.' => 'В поле {label} нужно загрузить файлы на всех языках.',
+    '{label} were not uploaded, an error occured.' => '{label} не были загружены, возникла ошибка.' ,
+    '{label} was not uploaded, an error occured.' => '{label} не был загружен, возникла ошибка.' ,
+    'Image was not uploaded, an error occured.' => 'Фото не было загружено, возникла ошибка.',
+    'Information letter was not uploaded, an error occured.' => 'Информационное письмо не было загружено, возникла ошибка.',
+    '{label} cannot be blank.' => 'Необходимо заполнить поле {label}.',
+    'There was a problem with your form submission. Please refresh the page and try again.' => 'Форма не была отправлена. Пожалуйста, обновите страницу и повторите попытку.',
+    'Enter E-mail' => 'Укажите E-mail'
+        )
+?>

@@ -1,0 +1,58 @@
+/*  Список конференций
+    List of conferences
+        confs/confs.php 
+        confs/new.php   */
+.confs-confs .year {
+    font-size: 1.4em;
+}
+.confs-confs .current-year {
+    font-size: 1.6em; /* как h1 */
+    color: #111;
+    font-weight: normal;
+}
+.confs-confs .conf-name,
+.confs-new .conf-name {
+    font-size: 1.2em;
+}
+/*  О сайте
+    About site
+        site/about.php
+        site/editAbout.php  */
+.site-editAbout textarea.value {
+    width: 67em; 
+}
+/*  Создание конференции
+    Creation of the conference
+        confCreate/create.php   */
+.confCreate-create input.value {
+    width: 67em; 
+}
+/*  Пользователи
+    Users
+        user/view.php   */
+.user-view .user-role {
+    background-color: #EFF4FA;
+    padding: 5px;
+}
+/*  Организации
+    Organizations   */
+.org-view .img {
+    float: left;
+    margin-left: 50px;
+}
+.org-view .conf-name {
+    font-size: 1.2em;
+}
+.org-view div.label {
+    width: 120px;
+}
+.org-view div.value {
+    margin-left: 130px;
+}
+.org-view .row {
+    clear: none;
+}
+
+
+
+

@@ -1,0 +1,84 @@
+.commentsDiv {
+    display: block;
+    text-align: left;
+    /*text-align: center;*/
+    padding-left: 0;
+}
+.newCommentDiv {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.commentsBtn {
+    font-size: 13px;  
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;  
+}
+.commentsBtnBold {
+    font-size: 13px;  
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.commentsBtnDisabled {
+    FONT-SIZE:13px; 
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.switchBtn {
+    FONT-SIZE: 13px;  
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+.commentView {
+    /*margin-left:1em;*/
+    margin-top: 6px;
+    padding: 3px;
+    background-color: #eaf0f6;/* #d5e2ee;*/
+    xborder: 1px solid #ABC6DD;
+    font-size: 13px; 
+    color: #485056; 
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    display: block;
+}
+.commentTextView {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: justify;
+    display: block;
+}
+.commentTextEdit {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: right;
+    display: block;
+}
+.commentBtnImg {
+    border: 0px;
+    height: 16px;
+}
+.editCommentBtn {
+    float: right;
+}
+.deleteCommentBtn {
+    float: right;
+}
+.saveCommentBtn {
+}
+.commentTextarea {
+    font-size: 10pt;
+    width: 51.8em;
+}
+.comments-count {
+    color: #D8270E;
+}
+.ajax_progress {
+    vertical-align: middle;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.authorizeDiv {
+    width: 100%;
+    text-align: center;
+    font-size: 13px; 
+    color: red; 
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+

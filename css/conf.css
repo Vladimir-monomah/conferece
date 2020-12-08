@@ -1,0 +1,246 @@
+.menu-column { 
+    float: left; 
+    padding: 10px 0px; 
+}
+.conf-column { 
+    float: right; 
+    width: 78%; 
+}
+.conf-header {
+    text-align: center; 
+}
+.conf-header .edit-link {
+    margin-bottom: 5px;
+}
+/*  Просмотр конференция
+    Viewing the conference */
+.conf-info div.label {
+    width: 230px;
+}
+.conf-info div.value {
+    margin-left: 240px;
+}
+.conf-info .row {
+    clear: none;
+}
+.conf-info .img {
+    float:right;
+}
+/*  Редактирование конференции 
+    Editing the conference */
+.conf input.value,
+.conf textarea.value {
+    width: 52.3em;
+}
+.conf div.label {
+    width: 250px;
+}
+.conf div.value {
+    margin-left: 260px;
+}
+/*  Редактироваие общей информации о конференции 
+    Editing general info about the conference  */
+.confedit-info .conf-orgs div.label {
+    width: 120px;
+}
+.confedit-info .conf-orgs div.value {
+    margin-left: 130px;
+}
+.confedit-info .conf-orgs input.value,
+.confedit-info .conf-orgs select.value {
+    width: 40.4em;
+}
+.confedit-info .deleteFileNote {
+    display: inline-block;
+    margin: 10px 0px;
+}
+/*  Редактирование контактов 
+    Editing contacts of the conference */
+.confedit-contacts div.label {
+    width: 140px;
+}
+.confedit-contacts div.value {
+    margin-left: 150px;
+}
+/*  Администрирование конференции 
+    Administering the conference    */
+/*  Настройки 
+    Settings    */
+.confadmin-settings div.label {
+    width: 280px;
+}
+.confadmin-settings div.value {
+    margin-left: 290px;
+}
+.confadmin-settings input[type='radio'],
+.confadmin-settings input[type='checkbox']{
+    margin-right: 5px;
+}
+/*  Страницы конференции
+    Pages of the conference  */
+.confadmin-sections div.label {
+    width: 180px;
+}
+.confadmin-sections div.value {
+    margin-left: 190px;
+} 
+.confadmin-sections input.value {
+    width: 35.8em;
+}
+.confadmin-sections input.urn-value {
+    width: 21.2em;
+}
+/*.confadmin-sections div.ordered:nth-of-type(2n) {
+    background-color: #FFF;
+}
+.confadmin-sections div.ordered:nth-of-type(2n+1) {
+    background-color: #EFF4FA;
+}*/
+/*  Файлы конференции
+    Files of the conference  */
+.confadmin-files input.value {
+    width: 52.3em;
+}
+/*  Форма заявки 
+    Application form    */
+.confadmin-form input.value {
+    width: 14em;
+}
+.confadmin-form input.hint-value {
+    width: 16em;
+}
+.confadmin-form .table th {
+    white-space: normal;
+}
+.confadmin-fieldList input.value {
+    width: 47.3em;
+}
+.confadmin-form label {
+    font-size: 10pt;
+    font-weight: normal;
+}
+/*  Секции и заседания 
+    Topics  */
+.confadmin-topics input.value,
+.confadmin-topics textarea.value {
+    width: 34.5em;
+}
+/*  Рассылка
+    Mailing */
+.confadmin-mailing input.value,
+.confadmin-mailing textarea.value {
+    width: 52.3em;
+}
+.confadmin-mailing input[type='radio'],
+.confadmin-mailing input[type='checkbox'] {
+    margin-right: 5px;
+}
+.confadmin-mailing .recipients-link {
+    margin-right: 0px; 
+}
+/*  Получатели */
+.confadmin-recipients label {
+    font-weight: normal;
+}
+
+.confadmin-recipients p.p {
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em;
+}
+/*  Участники 
+    Participants    */
+.admin-row {
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+#export-links .link {
+    margin-right: 10px;
+}
+.participant-adminall .hint,
+.participant-admintopiclist .hint {
+    display: inline;
+}
+.participant-view div.label {
+    width: 130px;
+}
+.participant-view div.value {
+    margin-left: 140px;
+}
+.participant-view textarea.value {
+    width: 39.3em;
+}
+.participant-view select.value {
+    width: 39.7em; 
+}
+.participant-view .author-info {
+    display: none;
+    padding: 10px;
+}
+.participant-view label {
+    display: block;
+    margin: 1.25em 0;
+}
+.participant-view .admin-row label {
+    display: inline;
+    margin: 0;
+}
+.participant-edit select.value {
+    width: 52.7em; 
+} 
+.participant-admintopiclist input.value {
+    width: 52.3em; 
+}
+.participant-admintopiclist select.value {
+    width: 50.3em; 
+}
+.participant-edit textarea.value,
+.participant-edit input.value  {
+    width: 52.3em;
+}
+.participant-edit input[type="checkbox"] {
+    margin-right: 5px;
+}
+.authors-row {
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+.authors-row .shown-switch {
+    display: inline-block;
+    padding: 2px 7px;
+}
+.authors-row .hidden-switch {
+    display: none;
+    padding: 2px 7px;
+}
+.authors-row a.author-link {
+    color: #0066A4;
+    text-decoration: none;
+}
+.authors-row a.error {
+    color: #C00;
+}
+.authors-row input.value,
+.authors-row textarea.value {
+    width: 34em;
+}
+.authors-row select.value {
+    width: 34.5em;
+}
+.participant-list ul.topics {
+    margin-left: 0; 
+    padding-left: 0; 
+}
+.participant-list ul.topics li {
+   margin: 10px 0;
+   list-style-type: none;  
+}
+.participant-all span.participation-type,
+.participant-topiclist span.participation-type {
+    font-style: italic;
+}
+.participant-edit input.short-value {
+    width: 16.53em;
+}
+.start-time{
+    padding-bottom: 0.4em;
+}

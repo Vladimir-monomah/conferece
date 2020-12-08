@@ -1,0 +1,39 @@
+RewriteEngine on
+
+AddDefaultCharset UTF-8
+
+#  перенаправляем с домена www. на домен без www.
+#  redirect from www. to without www. domain
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+#  перенаправление старого урла доклада на новый
+#  redirecting old version report url to the new one
+RewriteCond %{QUERY_STRING} ^memb_id=(.*)$
+RewriteRule ^conf/(.+)/report$ /conf/$1/participant/%1? [R=301,L]
+
+#  если директория или файл существуют, использовать их напрямую
+#  if a directory or a file exist then use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#  иначе отправлять запрос на файл index.php
+#  otherwise make a request to index.php
+RewriteRule . index.php
+
+#  для загрузки файлов на сервер
+#  options for uploading of files
+php_value upload_max_filesize 200M
+php_value post_max_size 250M
+
+#  максимальный размер памяти для php
+#  memory limit for PHP script evaluation
+php_value memory_limit 320M
+
+#  максимальное время выполнения скрипта (в секундах)
+#  maximum execution time for PHP script (seconds)
+php_value max_execution_time 300
+
+#  чтобы принудить браузер скачивать файл, а не открывать в новом окне
+#  options to force a browser to download a file instead of opening it in a new window
+AddType application/octet-stream doc docx odf pdf rtf txt png jpg csv xls                                     

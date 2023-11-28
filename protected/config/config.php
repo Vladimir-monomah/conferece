@@ -28,9 +28,9 @@ return array(
                 //  параметры подключения к базе данных
                 //  options to connect to database
                 'db' => array(
-                        'connectionString' => 'mysql:host=localhost;dbname=id12667420_conference',
-                        'username' => 'id12667420_abzalovailvin',
-                        'password' => 'madam123',
+                        'connectionString' => 'mysql:host=localhost;dbname=conferece',
+                        'username' => 'root',
+                        'password' => '',
                 ),
         ),
 

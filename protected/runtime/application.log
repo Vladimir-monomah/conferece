@@ -6655,3 +6655,656 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/robots.txt
 ---
+2023/11/27 17:59:17 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'id12667420_abzalovailvin'@'localhost' (using password: YES)
+2023/11/27 17:59:17 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/27 17:59:17 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'id12667420_abzalovailvin'@'localhost' (using password: YES)
+2023/11/27 17:59:17 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'id12667420_abzalovailvin'@'localhost' (using password: YES)
+2023/11/27 17:59:17 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/27 17:59:17 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'id12667420_abzalovailvin'@'localhost' (using password: YES)
+2023/11/27 17:59:49 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 17:59:49 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/27 17:59:49 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 17:59:49 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 17:59:49 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/27 17:59:49 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:10 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/27 18:00:10 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:10 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/27 18:00:10 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:12 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:12 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/27 18:00:12 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:12 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:12 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/27 18:00:12 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:13 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:13 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/27 18:00:13 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:13 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 18:00:13 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/27 18:00:13 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 19:07:16 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 19:07:16 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/27 19:07:16 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 19:07:16 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/27 19:07:16 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/27 19:07:16 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:24 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:24 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:30:24 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:25 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:25 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:30:25 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:52 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:52 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:30:52 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:53 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:30:53 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(905): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\protected\filters\RequestFilter.php(37): CModule->__get('db')
+#5 C:\OSPanel\domains\conferece\protected\filters\RequestFilter.php(29): RequestFilter::register()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(820): RequestFilter::onBeginRequest(Object(CEvent))
+#7 C:\OSPanel\domains\conferece\framework\yiilite.php(1186): CComponent->raiseEvent('onbeginrequest', Object(CEvent))
+#8 C:\OSPanel\domains\conferece\framework\yiilite.php(1171): CApplication->onBeginRequest(Object(CEvent))
+#9 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#10 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:30:53 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:02 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php
+---
+2023/11/28 11:36:02 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:02 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/index.php
+---
+2023/11/28 11:36:02 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:11 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:11 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:36:11 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:11 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:36:11 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:36:11 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'conference'
+2023/11/28 11:37:46 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:46 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:37:46 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:46 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:46 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:37:46 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:47 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:47 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:37:47 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:47 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:47 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:37:47 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:48 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:48 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:37:48 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:48 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:37:48 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:37:48 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:41:00 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:41:00 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:41:00 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:41:01 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:41:01 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:41:01 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+2023/11/28 11:45:51 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
+2023/11/28 11:45:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:45:51 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
+2023/11/28 11:45:51 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
+2023/11/28 11:45:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:45:51 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
+2023/11/28 11:45:52 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
+2023/11/28 11:45:52 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(SitePage))
+#7 C:\OSPanel\domains\conferece\protected\models\SitePage.php(27): CActiveRecord::model('SitePage')
+#8 C:\OSPanel\domains\conferece\protected\components\BaseController.php(47): SitePage::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(1727): BaseController->init()
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1648): CWebApplication->runController('confs/current')
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2023/11/28 11:45:52 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
+2023/11/28 11:45:52 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
+2023/11/28 11:45:52 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in C:\OSPanel\domains\conferece\framework\yiilite.php:8084
+Stack trace:
+#0 C:\OSPanel\domains\conferece\framework\yiilite.php(8050): CDbConnection->open()
+#1 C:\OSPanel\domains\conferece\framework\yiilite.php(8039): CDbConnection->setActive(true)
+#2 C:\OSPanel\domains\conferece\framework\yiilite.php(1050): CDbConnection->init()
+#3 C:\OSPanel\domains\conferece\framework\yiilite.php(1294): CModule->getComponent('db')
+#4 C:\OSPanel\domains\conferece\framework\yiilite.php(7115): CApplication->getDb()
+#5 C:\OSPanel\domains\conferece\framework\yiilite.php(7939): CActiveRecord->getDbConnection()
+#6 C:\OSPanel\domains\conferece\framework\yiilite.php(7048): CActiveRecordMetaData->__construct(Object(Conf))
+#7 C:\OSPanel\domains\conferece\protected\models\Conf.php(69): CActiveRecord::model('Conf')
+#8 C:\OSPanel\domains\conferece\protected\components\UrnRule.php(510): Conf::model()
+#9 C:\OSPanel\domains\conferece\framework\yiilite.php(2944): UrnRule->parseUrl(Object(CUrlManager), Object(CHttpRequest), 'favicon.ico', 'favicon.ico')
+#10 C:\OSPanel\domains\conferece\framework\yiilite.php(1647): CUrlManager->parseUrl(Object(CHttpRequest))
+#11 C:\OSPanel\domains\conferece\framework\yiilite.php(1173): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\conferece\index.php(26): CApplication->run()
+#13 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://conferece/
+---
+2023/11/28 11:45:52 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root@localhosts'@'localhost' (using password: NO)
